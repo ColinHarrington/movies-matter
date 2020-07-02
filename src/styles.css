@@ -1,4 +1,29 @@
+body {
+  padding: 0;
+  margin:0;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
 }
+
+header {
+  display: flex;
+  min-height: 5vh;
+  flex-direction: column;
+  background-color: tomato;
+}
+.container {
+  display: flex;
+  min-height: 5vh;
+}
+.movie {
+
+}
+footer {
+  background-color: slategrey;
+  display: flex;
+  min-height: 5vh;
+  flex-direction: column;
+}
+
